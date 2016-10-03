@@ -1,0 +1,44 @@
+body {
+    font-size: 12px;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    height: 300px;
+    width: 550px;
+
+}
+
+#options > div {
+    margin: 20px;
+}
+
+#port {
+    width: 36px;
+}
+
+#title {
+    font-size: 16px;
+}
+
+
+.left {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+#header2 {
+    line-height: 26px;
+    padding: 0 5px 5px 25px;
+    background: url(icon-19.png) no-repeat;
+}
+
+#options, #opentool {
+    padding: 2px;
+}
+
+
+
+iframe {
+    border: 0px;
+}

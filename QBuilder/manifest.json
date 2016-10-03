@@ -1,0 +1,24 @@
+{
+  "name": "Core Audience qualifier builder",
+  "version": "1.0",
+  "update_url": "https://dl.dropboxusercontent.com/u/44984232/TaxonomyEditor/updates.xml",
+  "description": "Plugin extension allows to create and edit qualifiers.",
+  //"background": { "scripts": ["background.js"] },
+  "browser_action" :
+  {
+    "default_icon" : "icon-19.png",
+    "default_title" : "Click to add qualifier",
+    "default_popup": "popup.html"
+
+  },
+    "options_page": "options.html",
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "permissions" : [
+    "tabs", "http://*/*", "https://*/*", "background", "storage"
+  ],
+  "icons" : {
+    "48" : "icon-48.png",
+    "128" : "icon-128.png"
+  },
+  "manifest_version": 2
+}
